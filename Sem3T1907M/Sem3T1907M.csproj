@@ -123,6 +123,27 @@
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UWP1.xaml.cs">
+      <DependentUpon>UWP1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UWP2.xaml.cs">
+      <DependentUpon>UWP2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UWP3.xaml.cs">
+      <DependentUpon>UWP3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UWP4.xaml.cs">
+      <DependentUpon>UWP4.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UWP5.xaml.cs">
+      <DependentUpon>UWP5.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UWP6.xaml.cs">
+      <DependentUpon>UWP6.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UWP7.xaml.cs">
+      <DependentUpon>UWP7.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
@@ -147,6 +168,34 @@
     <Page Include="MainPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UWP1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UWP2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UWP3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UWP4.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UWP5.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UWP6.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UWP7.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
   <ItemGroup>
