@@ -1,0 +1,19 @@
+﻿<Page
+    x:Class="Sem3T1907M.UWP7"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Sem3T1907M"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <RelativePanel>
+        <Rectangle x:ConnectionId='2' x:Name="RedRect" Height="100" Width="100" Fill="Red" 
+                   RelativePanel.AlignHorizontalCenterWithPanel="True" 
+                   RelativePanel.AlignVerticalCenterWithPanel="True"/>
+        <Rectangle x:ConnectionId='3' x:Name="BlueRect" Height="100" Width="200" Fill="Blue"/>
+    </RelativePanel>
+
+</Page>
+

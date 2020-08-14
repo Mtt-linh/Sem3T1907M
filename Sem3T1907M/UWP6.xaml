@@ -9,10 +9,16 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <RelativePanel>
-        <Rectangle x:Name="RedRect" Height="100" Width="100" Fill="Red" 
+        <Rectangle x:Name="RedRect" Height="100" Width="400" Fill="Red" 
                    RelativePanel.AlignHorizontalCenterWithPanel="True" 
                    RelativePanel.AlignVerticalCenterWithPanel="True"/>
         <Rectangle x:Name="BlueRect" Height="100" Width="200" Fill="Blue"/>
+        <Rectangle x:Name="low" Height="100" Width="100" Fill="green" 
+                   RelativePanel.Below="RedRect"
+                   RelativePanel.AlignHorizontalCenterWith="RedRect"/>
+        <Polygon x:Name="sin" Height="100" Width="100" Fill="Orange"
+                 RelativePanel.Below="BlueRect"
+                 RelativePanel.AlignHorizontalCenterWith="BlueRect"/>
     </RelativePanel>
 
 </Page>
