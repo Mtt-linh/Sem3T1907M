@@ -10,7 +10,6 @@ C:\Users\Admin\source\repos\Sem3T1907M\WeatherAppDemo\bin\x64\Debug\Core\Weather
 C:\Users\Admin\source\repos\Sem3T1907M\WeatherAppDemo\bin\x64\Debug\WeatherAppDemo.build.appxrecipe
 C:\Users\Admin\source\repos\Sem3T1907M\WeatherAppDemo\bin\x64\Debug\System.Runtime.dll
 C:\Users\Admin\source\repos\Sem3T1907M\WeatherAppDemo\bin\x64\Debug\Microsoft.UI.Xaml.Markup.winmd
-C:\Users\Admin\source\repos\Sem3T1907M\WeatherAppDemo\obj\x64\Debug\WeatherAppDemo.csprojAssemblyReference.cache
 C:\Users\Admin\source\repos\Sem3T1907M\WeatherAppDemo\obj\x64\Debug\App.g.i.cs
 C:\Users\Admin\source\repos\Sem3T1907M\WeatherAppDemo\obj\x64\Debug\App.g.cs
 C:\Users\Admin\source\repos\Sem3T1907M\WeatherAppDemo\obj\x64\Debug\MainPage.g.i.cs

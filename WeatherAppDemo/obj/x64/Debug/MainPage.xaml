@@ -12,7 +12,7 @@
     <StackPanel Background="Brown">
         <StackPanel VerticalAlignment="Center">
             <Image x:ConnectionId='2' Name="ResultImage " Width="200" Height="200" HorizontalAlignment="Center"/>
-            <TextBlock x:ConnectionId='3' Name="TemptextBlock" FontSize="53" Foreground="White" HorizontalAlignment="Center"/>
+            <TextBlock x:ConnectionId='3' Name="TempTextBlock" FontSize="53" Foreground="White" HorizontalAlignment="Center"/>
             <TextBlock x:ConnectionId='4' Name="DescriptionTextBlock" FontSize="35" Foreground="White" HorizontalAlignment="Center"/>
             <TextBlock x:ConnectionId='5' Name="LocationTextBlock" FontSize="24" Foreground="White" HorizontalAlignment="Center" TextWrapping="Wrap"/>
             

@@ -17,7 +17,6 @@ C:\Users\Admin\source\repos\Sem3T1907M\Sem3T1907M\bin\x64\Debug\Core\Sem3T1907M.
 C:\Users\Admin\source\repos\Sem3T1907M\Sem3T1907M\bin\x64\Debug\Sem3T1907M.build.appxrecipe
 C:\Users\Admin\source\repos\Sem3T1907M\Sem3T1907M\bin\x64\Debug\System.Runtime.dll
 C:\Users\Admin\source\repos\Sem3T1907M\Sem3T1907M\bin\x64\Debug\Microsoft.UI.Xaml.Markup.winmd
-C:\Users\Admin\source\repos\Sem3T1907M\Sem3T1907M\obj\x64\Debug\Sem3T1907M.csprojAssemblyReference.cache
 C:\Users\Admin\source\repos\Sem3T1907M\Sem3T1907M\obj\x64\Debug\App.g.i.cs
 C:\Users\Admin\source\repos\Sem3T1907M\Sem3T1907M\obj\x64\Debug\App.g.cs
 C:\Users\Admin\source\repos\Sem3T1907M\Sem3T1907M\obj\x64\Debug\MainPage.g.i.cs

@@ -1,4 +1,3 @@
-C:\Users\Admin\source\repos\Sem3T1907M\MyWeatherApplication\obj\x64\Debug\MyWeatherApplication.csprojAssemblyReference.cache
 C:\Users\Admin\source\repos\Sem3T1907M\MyWeatherApplication\obj\x64\Debug\App.g.i.cs
 C:\Users\Admin\source\repos\Sem3T1907M\MyWeatherApplication\obj\x64\Debug\App.g.cs
 C:\Users\Admin\source\repos\Sem3T1907M\MyWeatherApplication\obj\x64\Debug\MainPage.g.i.cs

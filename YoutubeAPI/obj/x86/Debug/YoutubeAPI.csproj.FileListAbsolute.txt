@@ -1,0 +1,15 @@
+C:\Users\Admin\source\repos\Sem3T1907M\YoutubeAPI\obj\x86\Debug\YoutubeAPI.csprojAssemblyReference.cache
+C:\Users\Admin\source\repos\Sem3T1907M\YoutubeAPI\obj\x86\Debug\App.g.i.cs
+C:\Users\Admin\source\repos\Sem3T1907M\YoutubeAPI\obj\x86\Debug\App.g.cs
+C:\Users\Admin\source\repos\Sem3T1907M\YoutubeAPI\obj\x86\Debug\MainPage.g.i.cs
+C:\Users\Admin\source\repos\Sem3T1907M\YoutubeAPI\obj\x86\Debug\MainPage.g.cs
+C:\Users\Admin\source\repos\Sem3T1907M\YoutubeAPI\obj\x86\Debug\VideoPage.g.i.cs
+C:\Users\Admin\source\repos\Sem3T1907M\YoutubeAPI\obj\x86\Debug\VideoPage.g.cs
+C:\Users\Admin\source\repos\Sem3T1907M\YoutubeAPI\obj\x86\Debug\XamlTypeInfo.g.cs
+C:\Users\Admin\source\repos\Sem3T1907M\YoutubeAPI\obj\x86\Debug\App.xaml
+C:\Users\Admin\source\repos\Sem3T1907M\YoutubeAPI\obj\x86\Debug\MainPage.xaml
+C:\Users\Admin\source\repos\Sem3T1907M\YoutubeAPI\obj\x86\Debug\VideoPage.xaml
+C:\Users\Admin\source\repos\Sem3T1907M\YoutubeAPI\obj\x86\Debug\App.xbf
+C:\Users\Admin\source\repos\Sem3T1907M\YoutubeAPI\obj\x86\Debug\MainPage.xbf
+C:\Users\Admin\source\repos\Sem3T1907M\YoutubeAPI\obj\x86\Debug\VideoPage.xbf
+C:\Users\Admin\source\repos\Sem3T1907M\YoutubeAPI\obj\x86\Debug\XamlSaveStateFile.xml

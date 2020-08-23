@@ -3,20 +3,19 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Net.Http;
-using System.Runtime.Serialization;
 using System.Runtime.Serialization.Json;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace WeatherAppDemo
 {
-    class APIManager
+    public class APIManager
     {
         public async static Task<RootObject> GetWeather(double lat, double lon)
         {
             var http = new HttpClient();
             var url = string.
-                Format("http://api.openweathermap.org/data/2.5/weather?lat={0}&lon={1}&units=metric&appid=96381a872b1b405c5bf83b2ed63d9561");
+                Format("http://api.openweathermap.org/data/2.5/weather?lat={0}&lon={1}&units=metric&appid=96381a872b1b405c5bf83b2ed63d9561",lat,lon);
             var response = await http.GetAsync(url);
             var result = await response.Content.ReadAsStringAsync();
 
@@ -27,12 +26,11 @@ namespace WeatherAppDemo
             var data = (RootObject)serializer.ReadObject(ms);
             return data;
         }
-        [DataContract]
         // Root myDeserializedClass = JsonConvert.DeserializeObject<Root>(myJsonResponse); 
         public class Coord
         {
             public double lon { get; set; }
-            public int lat { get; set; }
+            public double lat { get; set; }
         }
 
         public class Weather
@@ -45,7 +43,7 @@ namespace WeatherAppDemo
 
         public class Main
         {
-            public int temp { get; set; }
+            public double temp { get; set; }
             public double feels_like { get; set; }
             public int temp_min { get; set; }
             public int temp_max { get; set; }

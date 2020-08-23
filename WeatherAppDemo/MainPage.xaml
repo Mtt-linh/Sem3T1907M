@@ -12,7 +12,7 @@
     <StackPanel Background="Brown">
         <StackPanel VerticalAlignment="Center">
             <Image Name="ResultImage " Width="200" Height="200" HorizontalAlignment="Center"/>
-            <TextBlock Name="TemptextBlock" FontSize="53" Foreground="White" HorizontalAlignment="Center"/>
+            <TextBlock Name="TempTextBlock" FontSize="53" Foreground="White" HorizontalAlignment="Center"/>
             <TextBlock Name="DescriptionTextBlock" FontSize="35" Foreground="White" HorizontalAlignment="Center"/>
             <TextBlock Name="LocationTextBlock" FontSize="24" Foreground="White" HorizontalAlignment="Center" TextWrapping="Wrap"/>
             
