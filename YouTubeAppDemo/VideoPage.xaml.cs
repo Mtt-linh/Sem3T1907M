@@ -1,17 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Runtime.InteropServices.WindowsRuntime;
-using Windows.Foundation;
-using Windows.Foundation.Collections;
+using System.Net.NetworkInformation;
+using MyToolkit.Multimedia;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
-using Windows.UI.Xaml.Controls.Primitives;
-using Windows.UI.Xaml.Data;
-using Windows.UI.Xaml.Input;
-using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using YouTubeAppDemo.Model;
+using YouTubeAppDemo;
+using Windows.UI.Popups;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=234238
 
@@ -32,7 +27,7 @@ namespace YouTubeAppDemo
             {
                 if (NetworkInterface.GetIsNetworkAvailable())
                 {
-                    video = e.Parameter as Video;
+                    Video video = e.Parameter as Video;
                     YouTubeUri Url = await YouTube.GetVideoUriAsync(video.Id, YouTubeQuality.Quality1080P, YouTubeQuality.Quality480P);
 
                     Player.Source = Url.Uri;
@@ -57,4 +52,4 @@ namespace YouTubeAppDemo
         }
     }
 }
-}
+

@@ -1,17 +1,14 @@
-﻿using System;
+﻿using Google.Apis.Services;
+using Google.Apis.YouTube.v3;
+using System;
 using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Runtime.InteropServices.WindowsRuntime;
-using Windows.Foundation;
-using Windows.Foundation.Collections;
-using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
-using Windows.UI.Xaml.Controls.Primitives;
-using Windows.UI.Xaml.Data;
-using Windows.UI.Xaml.Input;
-using Windows.UI.Xaml.Media;
-using Windows.UI.Xaml.Navigation;
+using System.Net.NetworkInformation;
+using Windows.UI.Popups;
+
+using YouTubeAppDemo.Model;
+
+
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
@@ -54,7 +51,7 @@ namespace YouTubeAppDemo
                         TokenPrivPage = Result.PrevPageToken;
                     foreach (var item in Result.Items)
                     {
-                        ListVideo.Add(new Models.Video
+                        ListVideo.Add(new Model.Video
                         {
                             Title = item.Snippet.Title,
                             Id = item.Id.VideoId,
