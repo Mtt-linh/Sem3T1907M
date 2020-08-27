@@ -123,7 +123,7 @@
                 </ItemsPanelTemplate>
             </GridView.ItemsPanel>
             <GridView.ItemTemplate>
-                <DataTemplate x:DataType="data:DailiyForecast">
+                <DataTemplate x:DataType="data:DailyForecast">
                     <RelativePanel Width="320">
                         <TextBlock Text="{x:Bind Date}"/>
                         <Image Name="ImageWeather"

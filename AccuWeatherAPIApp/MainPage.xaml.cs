@@ -19,7 +19,7 @@ namespace AccuWeatherAPIApp
     public sealed partial class MainPage : Page
     {
         ObservableCollection<WeatherJSON> WeatherEachHours;
-        ObservableCollection<DailiyForecast> WeatherEachDays;
+        ObservableCollection<DailyForecast> WeatherEachDays;
 
         public MainPage()
         {
@@ -27,7 +27,7 @@ namespace AccuWeatherAPIApp
             WeatherEachHours = new ObservableCollection<WeatherJSON>();
             InitJSON();
 
-            WeatherEachDays = new ObservableCollection<DailiyForecast>();
+            WeatherEachDays = new ObservableCollection<DailyForecast>();
             InitEachDaysJSON();
 
         }
@@ -35,7 +35,7 @@ namespace AccuWeatherAPIApp
         private async void InitJSON()
         {
             var url = "http://dataservice.accuweather.com/forecasts/v1/hourly/12hour/353412?" +
-                "apikey=tbFOLXfZmAxAexEYOmXhcxnbZBDjQBSh&language=vi-vn&metric=true";
+                "apikey=93Qg780lHwYM4SO58n7DFPLqHg4oKADn&language=vi-vn&metric=true";
             var list = await WeatherJSON.GetJSON(url) as List<WeatherJSON>;
             Debug.WriteLine("Count: " + list.Count);
 
@@ -65,9 +65,10 @@ namespace AccuWeatherAPIApp
         private async void InitEachDaysJSON()
         {
             var urlFiveDay = "http://dataservice.accuweather.com/forecasts/v1/daily/5day/353412?" +
-                "apikey=tbFOLXfZmAxAexEYOmXhcxnbZBDjQBSh&language=vi-vn&metric=true";
+                "apikey=93Qg780lHwYM4SO58n7DFPLqHg4oKADn&language=vi-vn&metric=true";
+            /*   var obj = await WeatherEachDay.GetWeatherEach(urlFiveDay) as WeatherEachDay;*//**/
             var obj = await WeatherEachDay.GetWeatherEachDay(urlFiveDay) as WeatherEachDay;
-            obj.DailiyForecasts.ForEach(it =>
+            obj.DailyForecasts.ForEach(it =>
             {
             var matchs = Regex.Matches(it.Date, "\\d+");
             var date = new DateTime(int.Parse(matchs[0].Value), int.Parse(matchs[1].Value), int.Parse(matchs[2].Value));

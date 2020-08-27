@@ -1,0 +1,74 @@
+﻿<Page
+    x:Class="ClientApp.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ClientApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+  <Grid
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Grid.Resources>
+      <Style
+        TargetType="TextBox">
+        <Setter
+          Property="FontSize"
+          Value="24" />
+        <Setter
+          Property="FontFamily"
+          Value="Segoe Semilight" />
+        <Setter
+          Property="Margin"
+          Value="0,0,0,10" />
+      </Style>
+      <Style
+        TargetType="TextBlock">
+        <Setter
+          Property="FontSize"
+          Value="24" />
+        <Setter
+          Property="FontFamily"
+          Value="Segoe Semilight" />
+        <Setter
+          Property="TextAlignment"
+          Value="Center" />
+        <Setter
+          Property="Margin"
+          Value="0,0,0,10" />
+      </Style>
+    </Grid.Resources>
+    <Image x:ConnectionId='2'
+      Stretch="UniformToFill"
+      x:Name="image" />
+    <StackPanel
+      HorizontalAlignment="Center"
+      VerticalAlignment="Center"
+      Margin="20">
+      <TextBlock
+        FontSize="48"
+        Margin="0,0,0,50">client application</TextBlock>
+      <TextBox x:ConnectionId='3'
+        Header="Server Package Name"
+        x:Name="txtPackageName"
+        Text="" />
+      <TextBox x:ConnectionId='4'
+        Header="App Service Name"
+        x:Name="txtServiceName"
+        Text="flickrphoto"
+        Margin="0,10,0,0" />
+      <TextBox x:ConnectionId='5'
+        Header="Photo query"
+        x:Name="txtQuery"
+        Text="belgium"
+        Margin="0,10,0,0" />
+      <Button x:ConnectionId='6'
+        Content="Call Other Application"
+                       
+        FontSize="24"
+        HorizontalAlignment="Center"
+        Margin="0,10,0,0" />
+    </StackPanel>
+  </Grid>
+</Page>
+

@@ -123,7 +123,7 @@
                 </ItemsPanelTemplate>
             </GridView.ItemsPanel>
             <GridView.ItemTemplate>
-                <DataTemplate                                 >
+                <DataTemplate                                >
                     <RelativePanel x:ConnectionId='4' Width="320">
                         <TextBlock x:ConnectionId='5'                     />
                         <Image x:ConnectionId='6' Name="ImageWeather"

@@ -49,7 +49,7 @@ namespace AccuWeatherAPIApp.Models
         public string Icon { get; set; }
         public string IconPhrase { get; set; }
     }
-    public class DailiyForecast
+    public class DailyForecast
     {
         public string Date { get; set; }
         public int EpochDate { get; set; }
@@ -66,7 +66,7 @@ namespace AccuWeatherAPIApp.Models
     public class WeatherEachDay
     {
         public Headline Headline { get; set; }
-        public List<DailiyForecast > DailiyForecasts { get; set; }
+        public List<DailyForecast > DailyForecasts { get; set; }
         public async static Task<WeatherEachDay> GetWeatherEachDay(string url)
         {
             var http = new HttpClient();
